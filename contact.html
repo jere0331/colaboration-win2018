@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-toggleable-sm bg-light navbar-light fixed-top">
+     <div class="container">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+             <span class="navbar-toggler-icon"></span>
+         </button>
+         
+         <div class="collapse navbar-collapse" id="mainNav">
+             <div class="navbar-nav">
+                 <a href="index.html" class="nav-item nav-link">Home</a>
+                 <a href="about.html" class="nav-item nav-link">Portfolio</a>
+                 <a href="symptoms.html" class="nav-item nav-link">Contact</a>
+                
+             </div>
+         </div>
+     </div>
+  </nav>
+  <!--End NAVBAR-->
+  
+<div class=" sqs-grid-12 column-12"> 
+<div class="container">
+  
+  <form action="/action_page.php">
+       <form class="form-inline" action="/action_page.php">
+    <div class="form-group">
+      <label for="FIRST NAME">FIRST NAME</label>
+      <input type="FIRSTNAME" class="form-control" id="FN" placeholder="FIRST NAME" name="FIRSTNAME">
+    </div>
+    <div class="form-group">
+      <label for="LASTNAME">LAST NAME*</label>
+      <input type="LASTNAME" class="form-control" id="LN" placeholder="LAST NAME" name="LAST NAME">
+    </div>
+    <div class="form-group">
+      <label for="email">EMAIL ADRESS*</label>
+      <input type="email" class="form-control" id="email"  name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">SUBJECT*</label>
+      <input type="password" class="form-control" id="pwd"  name="pwd">
+    </div>
+    <div class="form-group">
+      <label for="pwd">MESSAGE*</label>
+      <input type="password" class="form-control" id="pwd"  name="pwd">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+</div>
+
+  
+    <script >
+       var DATE = prompt("WHEN ARE YOU EXPECTING?");
+       var GENDER = prompt("DO YOU KNOW WHAT ARE YOU HAVING?");
+      
+       
+        
+       document.getElementById("bname").innerHTML = DATE;
+       document.getElementById("bnumber").innerHTML = GENDER;
+      
+    </script>
+  
+  
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+  
+  
+  
