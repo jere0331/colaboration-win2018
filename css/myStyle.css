@@ -1,7 +1,26 @@
-
-  font-family: 'Ubuntu Condensed', sans-serif;
-
 .carousel-inner img {
       width: 100%;
       height: 100%;
   }
+  
+  body {
+    margin-top: 55px;
+    background-color: rgba(244, 240, 208, 0.3);
+}
+
+
+.carousel-indicators .active {
+}
+
+.carousel-caption {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.container {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.about {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #757364;
+}
